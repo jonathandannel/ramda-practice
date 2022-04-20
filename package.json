@@ -1,0 +1,10 @@
+{
+  "name": "ramda-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "jonathandannel",
+  "license": "MIT",
+  "dependencies": {
+    "ramda": "^0.28.0"
+  }
+}
