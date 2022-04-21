@@ -60,6 +60,7 @@ console.log(toSlugComposed("This is an awesome slug"));
 // this-is-an-awesome-slug
 
 // We don't need to create a function that accepts an input
+// Result of compose is already a function waiting for an argument
 // Now it's way easier to read, a list of things we want to do to what is passed in
 const toSlugComposedImproved = R.compose(
   encodeURIComponent,
